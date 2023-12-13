@@ -48,7 +48,7 @@ export default function Navbar2() {
           <li>Blog</li>
           <li>Contact</li>
         </ul>
-        <button className="enroll">Enroll Now</button>
+        <button className="enroll-btn">Enroll Now</button>
       </nav>
     </div>
   );
