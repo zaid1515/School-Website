@@ -1,141 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap");
 
 * {
-    font-family: 'Poppins', serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .prev-nav {
-    background-color: rgb(210, 33, 183);
-    color: white;
-    height: 45px;
-    display: flex;
-    padding: 0px 80px;
+  background-color: rgb(210, 33, 183);
+  color: white;
+  height: 45px;
+  display: flex;
+  padding: 0px 80px;
 }
 
 .prev-nav span {
-    margin: 10px 30px;
+  margin: 10px 30px;
 }
 
 .navbar2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    background-position: center;
-    letter-spacing: 1px;
-    color: rgba(50, 126, 94, 255);
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', serif;
-    font-weight: 400;
-    margin: 0px;
-    padding:0px 14px;
-    font-size: 1rem;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    z-index: 100;
-    background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  letter-spacing: 1px;
+  color: rgba(50, 126, 94, 255);
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px 14px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
 }
 
-
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav ul li {
-    color: rgba(34, 72, 126, 255);
-    list-style: none;
-    font-family: 'Poppins';
-    padding: 16px 12px;
-    margin-right: 12px;
-    font-size: 115%;
-    font-weight: 900;
-    display: inline-block;
-    border-radius: .6rem;
-    position: relative;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    transition: color 0.4s;
+  color: rgba(34, 72, 126, 255);
+  list-style: none;
+  font-family: "Poppins";
+  padding: 16px 12px;
+  margin-right: 12px;
+  font-size: 115%;
+  font-weight: 900;
+  display: inline-block;
+  border-radius: 0.6rem;
+  position: relative;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  transition: color 0.5s;
 }
 
 nav ul {
-    list-style: none;
-    margin-left: 1rem;
+  list-style: none;
+  margin-left: 1rem;
 }
 nav li::after {
-    bottom: 0;
-    color: black;
-    content: "";
-    width: 0;
-    height: 3px;
-    position: absolute;
-    left: 0%;
-    background: #9f4aae;
-    transition: width 0.4s ease 0s, left 0.4s ease 0s;
+  bottom: 0;
+  color: black;
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  left: 0%;
+  background: #9f4aae;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
 }
 
 nav li:hover::after {
-    width: 100%;
-    left: 0;
-    color: #9f4aae;
+  width: 100%;
+  left: 0;
+  color: #9f4aae;
 }
-nav li:hover{
-    color: #9f4aae;
+nav li:hover {
+  color: #9f4aae;
 }
 
 .loc,
 .phone {
-    display: flex;
+  display: flex;
 }
 
 .social-links {
-    color: white;
-    margin-top: 10px;
-    margin-left: 800px;
-    /* margin-right: 400px; */
-    /* position: absolute; */
-    /* top: 10px; */
-    /* right: 80px; */
-    font-size: large;
+  color: white;
+  margin-top: 10px;
+  margin-left: 800px;
+  /* margin-right: 400px; */
+  /* position: absolute; */
+  /* top: 10px; */
+  /* right: 80px; */
+  font-size: large;
 }
 
 .nav-link {
-    padding: 0px 10px;
-    color: white;
+  padding: 0px 10px;
+  color: white;
 }
 
 .loc-log,
 .ph-log {
-    padding: 0px 8px;
-    font-size: large;
+  padding: 0px 8px;
+  font-size: large;
 }
 
-.main-logo{
-    height: 48px;
-    /* position: relative; */
-    /* right: 260px; */
-    margin-right: 500px;
+.main-logo {
+  height: 48px;
+  /* position: relative; */
+  /* right: 260px; */
+  margin-right: 500px;
 }
 
-.navbar-list{
-    /* position: relative; */
-    /* left: 240px; */
+.navbar-list {
+  /* position: relative; */
+  /* left: 240px; */
 }
-.enroll-btn{
-    font-family: 'Ubuntu',serif;
-    background-color: rgb(82, 205, 254);
-    padding:12px 24px;
-    font-size: large;
-    border-radius: 30px;
-    border: 0px;
-    color: white;
-    margin-left: 30px;
+.enroll-btn {
+  font-family: "Ubuntu", serif;
+  background-color: rgb(82, 205, 254);
+  padding: 12px 24px;
+  font-size: large;
+  border-radius: 30px;
+  border: 0px;
+  color: white;
+  margin-left: 30px;
 }

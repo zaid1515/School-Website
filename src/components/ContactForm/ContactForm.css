@@ -1,0 +1,32 @@
+#contact {
+    display: flex;
+  }
+#contact > * {
+    flex: 1;
+}
+.primary-section {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.contact-form .section-heading {
+    margin-bottom: 10px;
+}
+.contact-form form {
+    margin-top: 20px;
+}
+.contact-form {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+  
+.form-group .form-control,
+.form-group .form-label {
+    display: block;
+    width: 100%;
+}
+.form-group .form-control {
+    padding: 0.5rem;
+}
