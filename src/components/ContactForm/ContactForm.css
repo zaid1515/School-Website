@@ -1,6 +1,6 @@
 #contact {
     display: flex;
-  }
+}
 #contact > * {
     flex: 1;
 }
