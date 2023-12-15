@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home'
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Home></Home>
+      {/* <Home></Home> */}
+      <ContactForm></ContactForm>
     </>
   )
 }
