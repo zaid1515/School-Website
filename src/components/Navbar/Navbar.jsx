@@ -7,8 +7,9 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import Mainlogo from "../../images/main-logo.png"
+import { Link } from 'react-router-dom';
 
-export default function Navbar2() {
+export default function Navbar() {
   return (
     <div className="nav-cont">
       <div className="prev-nav">
@@ -25,28 +26,27 @@ export default function Navbar2() {
           +91 7389265921
         </span>
         <div className="social-links">
-          <a href="" className="fb nav-link" style={{ color: "white" }}>
-            <FaFacebook />
-          </a>
-          <a href="" className="x nav-link" style={{ color: "white" }}>
+          <Link to="https://www.facebook.com" className="fb nav-link" style={{ color: "white" }}><FaFacebook /></Link>
+
+          <Link to="https://www.x.com" className="x nav-link" style={{ color: "white" }}>
             <FaTwitter />
-          </a>
-          <a href="" className="in nav-link" style={{ color: "white" }}>
+          </Link>
+          <Link to="https://www.linkedin.com" className="in nav-link" style={{ color: "white" }}>
             <FaLinkedinIn />
-          </a>
-          <a href="" className="insta nav-link" style={{ color: "white" }}>
+          </Link>
+          <Link to="https://www.instagram.com" className="insta nav-link" style={{ color: "white" }}>
             <RiInstagramFill />
-          </a>
+          </Link>
         </div>
       </div>
       <nav className="navbar2" id="mainnav">
-          <img src={Mainlogo} alt="logo" className="main-logo"/>
+        <img src={Mainlogo} alt="logo" className="main-logo" />
         <ul className="navbar-list ">
-          <li>Home</li>
-          <li>About</li>
-          <li>Class</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <Link to="/"> <li> Home</li></Link>
+          <Link to="/about">  <li>About</li></Link>
+          <Link to="/class"> <li> Class</li></Link>
+          <Link to="/blog"> <li> Blog</li></Link>
+          <Link to="/contact">  <li>Contact</li></Link>
         </ul>
         <button className="enroll-btn">Enroll Now</button>
       </nav>
