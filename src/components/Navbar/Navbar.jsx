@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { FaPhone } from "react-icons/fa6";
 import { MdLocationPin } from "react-icons/md";
@@ -6,10 +6,28 @@ import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import Mainlogo from "../../images/main-logo.png"
-import { Link } from 'react-router-dom';
+import Mainlogo from "../../images/main-logo.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const shouldFixNavbar = scrollPosition > 46; 
+      setIsFixed(shouldFixNavbar);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const navbarClass = isFixed ? "navbar2 fixed" : "navbar2";
+
   return (
     <div className="nav-cont">
       <div className="prev-nav">
@@ -39,7 +57,7 @@ export default function Navbar() {
           </Link>
         </div>
       </div>
-      <nav className="navbar2" id="mainnav">
+      <nav className={navbarClass} id="mainnav">
         <img src={Mainlogo} alt="logo" className="main-logo" />
         <ul className="navbar-list ">
           <Link to="/"> <li> Home</li></Link>

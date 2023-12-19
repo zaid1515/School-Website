@@ -3,16 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap");
 
 * {
-  font-family: "Poppins", serif;
+  font-family: "Fredoka", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.nav-cont{
-  width: 100%;
-  position: fixed;
-  top: 0;
-}
+
 .prev-nav {
   background-color: rgb(210, 33, 183);
   color: white;
@@ -46,8 +42,13 @@
   width: 100%;
   z-index: 100;
   background-color: white;
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
 }
-
+.navbar2.fixed{
+  position: fixed;
+  top: 0;
+}
 nav a {
   text-decoration: none;
   color: white;

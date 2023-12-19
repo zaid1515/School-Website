@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap");
+
+.homeSec2 h2{
+    font-family: 'Fredoka',serif;
+    color: gold;
+    font-size: 2.8rem;
+    margin:20px 10px;
+}
+.homeSec2 h3{
+    font-family: 'Fredoka',serif;
+    color: darkblue;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+.homeSec2 h4{
+    font-family: 'Poppins',serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+.homeSec2 h5{
+    font-family: 'Poppins',serif;
+    color: darkblue;
+    font-size: 1.4rem;
+    margin:0px 100px 4px 0px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.homeSec2{
+    margin: 400px 60px;
+}
+.center-text{
+    text-align: center;
+}
+.sec{
+    margin: 40px 180px;
+}
+.homeSec2-content{
+    
+    color: darkblue;
+}
+.homeSec2-heading{
+    color:  rgb(210, 33, 183);
+}
+.homeSec2-para{
+    font-family: 'Poppins',serif;
+}
+.homeSec2-para2{
+    font-family: 'Poppins',serif;
+    font-size: .88rem;
+    line-height: 1.8rem;
+    color: darkblue;
+}
+.flex{
+    display: flex;
+}
+.homeSec2-features{
+    margin: 40px 100px;
+}
+
+.about1-icon-div,.about1-icon-txt{
+    padding:14px 6px 14px 20px;
+}
+.features-text{
+    margin: 50px 60px 0px 0px;
+}
+.about1-icon-div{
+    margin: 10px 0px;
+}
+.icon1-sec,.icon2-sec,.icon3-sec{
+    margin: 10px 0px;
+}
+.icon1-sec h5{
+    color: rgb(9, 124, 163);
+}
+.icon2-sec h5{
+    color: gold;
+}
+.icon3-sec h5{
+    color: rgba(0, 217, 255, 0.952);
+}
