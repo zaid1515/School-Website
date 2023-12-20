@@ -26,52 +26,54 @@ export default function contactForm() {
         //     </div>
         // </form>
         <div id="contact">
-            <section class="contact-form page-section primary-section">
-            <h2 class="section-heading">Contact Us</h2>
+            <section className="contact-form page-section primary-section">
+            <h2 className="section-heading">Contact Us</h2>
             <p>Please use the form below to contact us</p>
   
             <form>
-                <div class="form-group">
-                <label for="name" class="form-label">Name</label>
-                <input
-                    id="name"
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Name"
-                />
-                </div>
-                <div class="form-group">
-                <label for="email" class="form-label">Email</label>
-                <input
-                    id="email"
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Email"
-                />
-                </div>
-                <div class="form-group">
-                <label for="phone" class="form-label">Phone Number</label>
-                <input
-                    id="phone"
-                    type="text"
-                    class="form-control"
-                    placeholder="Enter Phone Number"
-                />
-                </div>
-                <div class="form-group">
-                <label for="message" class="form-label">Message</label>
+                <div className="form-group">
+                {/* <label htmlFor="message" className="form-label">Message</label> */}
                 <textarea
                     id="message"
                     rows="3"
                     placeholder="Enter Message"
-                    class="form-control"
+                    className="form-control"
                 ></textarea>
                 </div>
-                <div class="form-group">
-                <button class="btn btn-dark d-block">Send</button>
+                <div className="form-group">
+                {/* <label htmlFor="name" className="form-label">Name</label> */}
+                <input
+                    id="name"
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter Name"
+                />
+                </div>
+                <div className="form-group">
+                {/* <label htmlFor="email" className="form-label">Email</label> */}
+                <input
+                    id="email"
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter Email"
+                />
+                </div>
+                <div className="form-group">
+                {/* <label htmlFor="phone" className="form-label">Phone Number</label> */}
+                <input
+                    id="subject"
+                    type="text"
+                    className="form-control"
+                    placeholder="Enter Subject"
+                />
+                </div>
+               
+                <div className="form-group">
+                <button className="btn boxed-btn d-block">Send</button>
                 </div>
             </form>
             </section>
         </div>
-    )
+
+    );
 }
