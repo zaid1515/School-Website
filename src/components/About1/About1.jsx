@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import './About1.css'
 import Icon1 from '../../images/about-icon1.svg'
 import Icon2 from '../../images/about-icon2.svg'

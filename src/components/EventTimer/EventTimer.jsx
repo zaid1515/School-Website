@@ -65,5 +65,5 @@ useEffect(() => {
       </div>
     </div>
   );
-};
+}
 

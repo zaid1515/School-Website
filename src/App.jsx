@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import ContactForm from './components/ContactForm/ContactForm';
 import About from './pages/About/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<ContactForm />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
