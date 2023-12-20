@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
-import About1 from "../../components/About1_Features/About1";
-import About2 from "../../components/About2_upcoming_event/About2";
+import About1 from "../../components/About1/About1";
+import About2 from "../../components/About2/About2";
 
 export default function Home() {
      return (

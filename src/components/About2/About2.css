@@ -8,28 +8,21 @@
      /* flex-direction: column; */
      align-items: center;
      justify-content: center;
-     /* height: 300px; */
+     height: 650px;
      /* margin-top: 168px; */
      /* margin-bottom: 200px; */
      /* padding: 160px 100px; */
      /* color: white; */
+     background-repeat: no-repeat;
      color: darkblue;
-     margin-top: 180px;
+     /* margin-top: 140px; */
+     margin: 140px 0px 80px 0px;
+     background: url('../../images/section_bg2.webp') center;
  }
+ 
  .about2-cont p{
     
     font-family: 'Poppins',serif;
- }
- .about2-cont::before {
-     content: "";
-     position: absolute;
-     background: url('../../images/section_bg2.webp') center;
-     background-repeat: no-repeat;
-     height: 650px;
-     top: 1800px;
-     left: 0px;
-     width: 100%;
-     z-index: -1;
  }
 
  .about2-center-div{

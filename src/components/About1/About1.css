@@ -31,14 +31,14 @@
     justify-content: center;
 }
 .homeSec2{
-    margin: 400px 60px 100px 60px;
+    margin: 100px 60px 100px 60px;
 }
 .center-text{
     text-align: center;
     margin:22px  28px;
 }
 .sec{
-    margin: 40px 180px;
+    margin: -10pxpx 180px;
 }
 .homeSec2-content{
     
@@ -60,7 +60,7 @@
     display: flex;
 }
 .homeSec2-features{
-    margin: 90px 100px;
+    margin: 75px 100px;
 }
 
 .about1-icon-div,.about1-icon-txt{
