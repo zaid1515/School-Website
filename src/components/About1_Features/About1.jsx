@@ -15,7 +15,7 @@ export default function About1() {
                          </div>
                     </h3>
                     <p className="homeSec2-para center-text">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, excepturi omnis? In harum, vitae accusamus vero maiores voluptatum! Deserunt, architecto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, nihil.
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, excepturi omnis?  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, nihil.
 
                     </p>
                </div>

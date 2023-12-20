@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap");
+
+
+.about2-cont {
+     display: flex;
+     /* flex-direction: column; */
+     align-items: center;
+     justify-content: center;
+     /* height: 300px; */
+     /* margin-top: 168px; */
+     /* margin-bottom: 200px; */
+     /* padding: 160px 100px; */
+     /* color: white; */
+     color: darkblue;
+     margin-top: 180px;
+ }
+ .about2-cont p{
+    
+    font-family: 'Poppins',serif;
+ }
+ .about2-cont::before {
+     content: "";
+     position: absolute;
+     background: url('../../images/section_bg2.webp') center;
+     background-repeat: no-repeat;
+     height: 650px;
+     top: 1800px;
+     left: 0px;
+     width: 100%;
+     z-index: -1;
+ }
+
+ .about2-center-div{
+     
+     font-family: 'Fredoka',serif;
+     background-color: white;
+     padding: 50px 30px;
+     margin: 4px;
+     /* margin-left: 90px; */
+     width: 36%;
+     border-radius: 80px;
+     /* position: absolute; */
+     /* top: 200px; */
+ }
+
+.about2-center-div h2{
+     font-family: 'Fredoka',serif;
+     color: gold;
+     font-size: 2.8rem;
+     margin:20px 10px;
+ }
+.about2-center-div h3{
+     font-family: 'Fredoka',serif;
+     color: darkblue;
+     font-size: 2.5rem;
+     margin: 20px;
+ }
+.about2-center-div h4{
+     font-family: 'Fredoka',serif;
+     color: darkblue;
+     font-size: 2.6rem;
+     margin: 8px 0px;
+ }
+.about2-center-div h5{
+     font-family: 'Fredoka',serif;
+     color:rgb(210, 33, 183);
+     font-size: 1.4rem;
+     margin:20px;
+ }
+ .view-event-btn {
+    font-family: 'Ubuntu',serif;
+    background-color: rgb(210, 33, 183);
+    padding:12px 24px;
+    font-size: large;
+    border-radius: 30px;
+    border: 0px;
+    color: white;
+    margin: 14px 0px;
+    /* margin-left: 30px; */
+    display: block;
+    margin: 36px auto 0px auto;
+}

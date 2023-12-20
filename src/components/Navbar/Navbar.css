@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Capriola&family=Dongle&family=Fredoka:wght@600&family=Poppins:wght@500&family=Signika+Negative:wght@500;600&display=swap");
 
 * {
-  font-family: "Fredoka", serif;
+  /* font-family: "Fredoka", serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
