@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=PT+Sans:wght@400;700&family=Poppins:wght@100;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 #contact {
     display: flex;
 }
@@ -6,7 +8,7 @@
 }
 .primary-section {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #000;
 }
 .contact-form .section-heading {
     margin-bottom: 10px;
@@ -29,4 +31,21 @@
 }
 .form-group .form-control {
     padding: 0.5rem;
+}
+.boxed-btn {
+    background: #fff;
+    color: #ED078B !important;
+    padding: 18px 44px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    border: 1px solid #ED078B;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.boxed-btn:hover {
+    color: #fff;
+    background: #ED078B;
+    transition: .3s;
 }
