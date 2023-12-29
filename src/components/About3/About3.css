@@ -1,3 +1,21 @@
 .tr-details{
      display: flex;
+     /* margin: 60px; */
+     /* justify-content: center; */
+}
+.tr-sect{
+     font-family: 'Fredoka',serif;
+}
+.tr-carousel{
+     margin: 10px 160px;
+     /* padding: 0px 2px; */
+}
+.about3 .tr-sect-head{
+     font-family: 'Fredoka',serif;
+}
+.about3{
+     color: rgb(255, 224, 252);
+}
+.slick-slide{
+     padding: 0px 16px;
 }
